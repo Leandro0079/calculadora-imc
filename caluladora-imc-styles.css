@@ -1,0 +1,83 @@
+@import url('./styles.css');
+@import url('./color.css');
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color1);
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-principal{
+    height: 30rem;
+}
+
+.cartao{
+    background-color: var(--color3);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cartao h2{
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+}
+
+.botao-calcular{
+    background-color: var(--color2);
+}
+
+.resultado__num{
+    text-align: center;
+
+}
+
+.resultado__texto{
+    text-align: center;
+}
+
+.teste{
+    color: red;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.navegacao {
+    display: flex;
+}
+
+.navegacao * {
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #fff;
+
+}
+
+.navegacao *:hover {
+    color: #070F2B;
+    transform: scale(0.8);
+
+}
+
+.navegacao a:nth-child(1) {
+    text-decoration: underline;
+
+}
